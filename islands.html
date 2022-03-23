@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <a class = "skip" href="#main">Skip to Main Content</a>
+    
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/9ae751dfca.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Palette+Mosaic&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-36LWL9XL1H"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -18,39 +28,54 @@
 
 <body>
     <header id="header">
-        <nav>
+        <h1><a href="index.html">Meems Crossing</a></h1>
+        <h2><a href="index.html">An Animal Crossing New Horizons Portfolio</a></h2>
+        <nav id="menu">
+            <div class="main_menu">
             <ul>
+                <li class="current_tab">
+                    <a href="index.html"><i class="fa-solid fa-house-chimney fa-sm"></i> Home</a>
+                </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="islands.html"><i class="fa-solid fa-anchor fa-sm"></i> Islands</a>
                 </li>
-                <li class="islandstab">
-                    <a  href="islands.html">Islands</a>
-                    <link rel="icon" href="images/palmtree.ico">
-                    
+            </div>
+            <div class="islands_menu"> 
+                <li>
+                    <a href="kenny.html">&#10047; Kennyyyy</a>
                 </li>
+                <li>
+                    <a href="gardenia.html">&#10047; Gardenia</a>
+                </li>
+                <li>
+                    <a href="suburbia.html">&#10047; Suburbia</a>
+                </li>
+                <li>
+                    <a href="patagonia.html">&#10047; Patagonia</a>
+                </li>
+            </div>   
             </ul>
         </nav>
-        <h1>Meems' Animal Crossing New Horizons Island Portfolio</h1>
     </header>
-    <main id="main">
+    <main id="main_background">
         <div class="yellow" id="pagetitle">
-            <h2>Islands</h2>
+            <h2 id="main">Islands</h2>
         </div>
-        <div class="islands">
+        <div class="islands_container">
             <ul>
-                <li>
+                <li class="island_box">
                     <h3><a href="kenny.html">Island 1: KENNYYYY! </a></h3>
-                    <p> My first island, KENNYYYY!, was Storybook Town themed. It was by far the least “planned” out of my islands because it was my first time getting acquainted with the story and features of the game. It's pretty good for a first island if you ask me!</p>
+                    <p>My first island, KENNYYYY!, was Storybook Town themed. It was by far the least “planned” out of my islands because it was my first time getting acquainted with the story and features of the game.</p>
                 </li>
-                <li>
+                <li class="island_box">
                     <h3><a href="gardenia.html">Island 2: Gardenia</a></h3>
                     <p>Gardenia, my second island, is Cottagecore themed with some influence from Legend of Zelda: Breath of the Wild. It was my first time going for a more natural island as opposed to a city/town type of island, and it turned out so cute!</p>
                 </li>
-                <li>
+                <li class="island_box">
                     <h3><a href="suburbia.html">Island 3: Suburbia</a></h3>
                     <p>Suburbia is the third and most recent island I created, and as the name suggests, it is Suburban neighborhood themed. It was the first island where I got to play around with the features of the 2.0 version update and customize my island more than ever before: designing villagers’ houses, thousands of new items, improvement of interior design capabilities, and more.</p>
                 </li>
-                <li>
+                <li class="island_box">
                     <h3><a href="patagonia.html">Island 4: Patagonia</a></h3>
                     <p>Island 4 is VERY fresh, and the theme is unknown as of yet. With all of the new landscape items that came with version 2.0, I wanted to play around with different landscapes and ecosystems on the same island.</p>
                 </li>
