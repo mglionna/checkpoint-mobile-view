@@ -266,8 +266,8 @@ img:nth-child(even):hover{
     justify-items: center;
     /* background-color: #cefff733; */
     flex-basis: 350px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pics_flex img {
@@ -343,7 +343,7 @@ img:nth-child(even):hover{
     padding-bottom: 20px;
     box-sizing:border-box;
     border-top: dashed 4px #179e97;
-    border-bottom: dashed 4px #179e97;
+    border-bottom: dashed 2px #179e97;
 }
 
 #contact {
