@@ -31,41 +31,43 @@
 
 <body>
     <header id="header">
-        <div id="title" aria-label="title">
+        <div id="title">
             <h1><a href="index.html">Meems Crossing</a></h1>
-            <h2><a href="index.html">An Animal Crossing New Horizons Portfolio</a></h2>
+            <h2>An Animal Crossing New Horizons Portfolio</a></h2>
         </div>
         <nav id="menu">
             <div class="main_menu">
-            <ul>
-                <li class="current_tab">
-                    <a href="index.html"><i class="fa-solid fa-house-chimney fa-sm"></i> Home</a>
-                </li>
-                <li>
-                    <a href="islands.html"><i class="fa-solid fa-anchor fa-sm"></i> Islands</a>
-                </li>
+                <ul>
+                    <li class="current_tab">
+                        <a href="index.html"><i class="fa-solid fa-house-chimney fa-sm"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="islands.html"><i class="fa-solid fa-anchor fa-sm"></i> Islands</a>
+                    </li>
+                </ul>
             </div>
             <div class="islands_menu"> 
-                <li>
-                    <a href="kenny.html">&#10047; Kennyyyy</a>
-                </li>
-                <li>
-                    <a href="gardenia.html">&#10047; Gardenia</a>
-                </li>
-                <li>
-                    <a href="suburbia.html">&#10047; Suburbia</a>
-                </li>
-                <li>
-                    <a href="patagonia.html">&#10047; Patagonia</a>
-                </li>
-            </div>   
-            </ul>
+                <ul>
+                    <li>
+                        <a href="kenny.html">&#10047; Kennyyyy</a>
+                    </li>
+                    <li>
+                        <a href="gardenia.html">&#10047; Gardenia</a>
+                    </li>
+                    <li>
+                        <a href="suburbia.html">&#10047; Suburbia</a>
+                    </li>
+                    <li>
+                        <a href="patagonia.html">&#10047; Patagonia</a>
+                    </li>   
+                </ul>
+            </div>
         </nav>
     </header>
     <main id="main">
         <div class="pics_flex">
-            <img src="images/kennyfriends.jpg" alt="Screenshot of my Animal Crossing character standing between two friends in front of an autumn orange grove. The leaves of the tree are red and have yellow, and red tulips planted in front of them.">
-            <img src="images/gardeniaoffice.jpg" alt="My Animal Crossing character showing off an office-style room in my house. She is wearing a striped red shirt, overalls, a blue bow and black shoes. She is standing next to an office desk and chair and in front of a pink copy machine, chalkboard, and a pink flatscreen TV on the wall. The wallpaper is the Nook Inc. wallpaper which is white with turquoise leaves.">
+            <img src="images/kennyfriends.jpg" alt="My Animal Crossing character standing between two friends in front of an autumn orange grove with red, yellow and orange tulips.">
+            <img src="images/gardeniaoffice.jpg" alt="My Animal Crossing character showing off an office-style room in my house, wearing a striped red shirt, overalls, a blue bow and black shoes.">
         </div>
         <div class="yellow" id="about">
             <h2>About Me</h2>
@@ -84,19 +86,19 @@
                 <label for="name">Name</label>
                 <br>
                 <!-- Input element -->
-                <input type="text" name="name">
+                <input type="text" name="name_input" id="name">
                 <br>
                 <!-- Label element -->
                 <label for="email">E-mail Address</label>
                 <br>
                 <!-- Input element -->
-                <input type="text" name="email">
+                <input type="text" name="email_input" id="email">
                 <br>
                 <!-- Label element -->
                 <label for="message">Message</label>
                 <br>
                 <!-- Input element -->
-                <textarea>Type your message here...</textarea>
+                <textarea name="message_box" id="message">Type your message here...</textarea>
             </form>
         </div>
     </main>
