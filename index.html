@@ -32,7 +32,7 @@
 <body>
     <header id="header">
         <div id="title">
-            <h1><a href="index.html">Meems Crossing</a></h1>
+            <h1 id="main"><a href="index.html">Meems Crossing</a></h1>
             <h2>An Animal Crossing New Horizons Portfolio</a></h2>
         </div>
         <nav id="menu">
@@ -64,7 +64,7 @@
             </div>
         </nav>
     </header>
-    <main id="main">
+    <main>
         <div class="pics_flex">
             <img src="images/kennyfriends.jpg" alt="My Animal Crossing character standing between two friends in front of an autumn orange grove with red, yellow and orange tulips.">
             <img src="images/gardeniaoffice.jpg" alt="My Animal Crossing character showing off an office-style room in my house, wearing a striped red shirt, overalls, a blue bow and black shoes.">
@@ -80,7 +80,7 @@
                 <a class="back" href="islands.html">Explore Islands</a>
         </div>
         <div class="green" id="contact">
-            <form action="/index.html" method=POST>
+            <form action="https://formspree.io/f/xdobdglp" method=POST>
                 <h2>Contact Me!</h2>
                 <!-- Label element -->
                 <label for="name">Name</label>
@@ -99,6 +99,11 @@
                 <br>
                 <!-- Input element -->
                 <textarea name="message_box" id="message">Type your message here...</textarea>
+                <br>
+                <input type="checkbox" name="mail" id="mail_list">
+                <label for="mail_list">Sign me up for news and updates!</label>
+                <br>
+                <input type="submit" value="Submit">
             </form>
         </div>
     </main>
